@@ -11,5 +11,6 @@ jobs:
       uses: actions/setup-python@v1
     - name: Install dependencies
       run: pip install git+https://github.com/icpc-jag/rime
-    - name: Run tests
-      run: rime test
+    - name: Run tests for player1
+      run: rime test player1
+      if: contains(github.ref, 'tags/player1')
