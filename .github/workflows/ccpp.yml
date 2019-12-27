@@ -7,4 +7,5 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello, World!"
+      - run: pip3 install git+https://github.com/icpc-jag/rime
+      - run: rime test
