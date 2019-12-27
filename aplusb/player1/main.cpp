@@ -17,7 +17,7 @@ const ll INF = 1LL<<60;
 
 int main(void) {
     int a, b;
-    cin >> a >> b;
+    cin >> a >> b; 
     cout << a*b << endl;
 
     return 0;
