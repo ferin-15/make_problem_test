@@ -7,6 +7,5 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - run: apt-get install python3-setuptools
-      - run: pip3 install git+https://github.com/icpc-jag/rime
+      - run: pip install git+https://github.com/icpc-jag/rime
       - run: rime test
